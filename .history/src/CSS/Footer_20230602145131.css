@@ -1,0 +1,32 @@
+/** @format */
+
+.Footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  margin-top: 40px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+.Footer .Left_Comp {
+  width: 15%;
+  border: 1px solid #fff;
+}
+.Footer .Mid_Comp {
+  width: 20%;
+  border: 1px solid #fff;
+}
+.Footer .Right_Comp {
+  width: 40%;
+  border: 1px solid #fff;
+}
+
+.Footer .Left_Comp .Social_Div{
+    display: flex;
+    gap: 20px;
+}
+.Footer .Left_Comp .Social_Div div{
+    display: flex;
+    gap: 10px;
+}

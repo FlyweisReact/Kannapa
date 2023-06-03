@@ -1,0 +1,429 @@
+/** @format */
+
+/* Fading Header */
+
+/* Home Screen */
+.Index_Center_Banner {
+  width: 100%;
+  padding: 10px;
+}
+
+.Index_Center_Banner img {
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.Index_Center_GIF {
+  width: 100%;
+  padding: 10px;
+}
+
+.Index_Center_GIF img {
+  width: 90%;
+  display: block;
+  margin: auto;
+  height: 500px;
+}
+
+.Index_Center_Desc {
+  display: flex;
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+}
+
+.Index_Center_Desc .Main_Comp {
+  text-align: left;
+}
+.Index_Center_Desc .Main_Comp .head {
+  font-size: 36px;
+  color: #1d1d1d;
+  text-shadow: 0px 1px 1px rgba(37, 37, 37, 0.5);
+  margin: 0;
+}
+
+.Index_Center_Desc .Main_Comp .Two_Sec {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.Index_Center_Desc .Main_Comp .Two_Sec img {
+  height: 20px;
+  margin-top: 4px;
+}
+
+.Index_Center_Desc .Main_Comp .Two_Sec p {
+  color: rgba(29, 29, 29, 0.6);
+  text-shadow: 0px 1px 1px rgba(37, 37, 37, 0.5);
+  font-style: italic;
+}
+
+.Index_Center_Desc .Main_Comp .desc p {
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  color: rgba(29, 29, 29, 0.6);
+  max-width: 60%;
+  font-style: italic;
+  margin: 0;
+}
+.first5 p u {
+  color: #333;
+}
+
+.Index_Logo_Div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Index_Logo_Div .Left_Comp {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.Index_Logo_Div .Right_Comp img {
+  cursor: pointer;
+}
+
+.Index_Video_Slider {
+  width: 90%;
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Video_Slider {
+  width: 100%;
+  /* padding: 20px; */
+  display: block;
+  margin: auto;
+}
+.Video_Slider .Main_Item {
+  background: #ffffff;
+  border: 1px solid #1d1d1d;
+  border-radius: 10px;
+  height: 400px;
+}
+.Video_Slider .Main_Item img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.Video_Slider .Main_Item p {
+  padding: 10px;
+  font-family: Montserrat;
+  font-size: 15px;
+  line-height: 18px;
+  color: #1d1d1d;
+}
+.Video_Slider .Main_Item:focus {
+  outline: none;
+}
+
+.Index_Center_Button {
+  width: 90%;
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 2%;
+  position: relative;
+}
+.Index_Center_Button button {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  width: 256px;
+  color: #ffffff;
+  background: #2965ff;
+  border: 1px solid #2965ff;
+  border-radius: 25px;
+  padding: 10px;
+  display: block;
+  margin: auto;
+}
+
+.Index_Center_Button .empty {
+  height: 4px !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  background-color: #2965ff;
+  width: 100%;
+}
+
+.Index_Three_Cont {
+  width: 90%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  margin: auto;
+  padding-top: 20px;
+}
+.Index_Three_Cont .Main_Component .head {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.3418px;
+  line-height: 30px;
+  color: #1d1d1d;
+}
+.Index_Three_Cont .Main_Component img {
+  width: 100%;
+}
+.Index_Three_Cont .Main_Component .desc {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15.9584px;
+  line-height: 40px;
+}
+
+/* Score_Card_Slider */
+.ScoreCard_Slider {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ScoreCard_Slider .Main_Item {
+  border: 1px solid #cfcfcf;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  width: 350px !important;
+  height: 208px !important;
+  position: relative;
+}
+.ScoreCard_Slider .Main_Item .two_Sec {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.ScoreCard_Slider .Main_Item .two_Sec p {
+  margin: 0;
+  font-family: MontserratNormal;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 14px;
+}
+.ScoreCard_Slider .Main_Item .two_Sec .first {
+  margin: 0;
+  font-family: MontserratNormal;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 14px;
+  color: #ff0000;
+}
+.ScoreCard_Slider .slick-next:before {
+  display: none !important;
+}
+
+.ScoreCard_Slider .Main_Item .Flags_Div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.ScoreCard_Slider .Main_Item .Flags_Div div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.ScoreCard_Slider .Main_Item .Flags_Div div p {
+  margin: 0;
+  font-family: MontserratNormal;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+}
+.ScoreCard_Slider .Main_Item .desc {
+  color: #1d1d1d;
+  font-family: MontserratNormal;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  width: 90%;
+  margin: 0;
+  margin-top: 20px;
+}
+.ScoreCard_Slider .Main_Item .empty {
+  background-color: #bfbfbf;
+  width: 100%;
+  height: 2px;
+  margin-top: 10px;
+}
+.ScoreCard_Slider .Main_Item .Scorecard {
+  font-family: MontserratNormal;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  position: absolute;
+  letter-spacing: -0.11px;
+  color: #2965ff;
+  bottom: 0;
+}
+
+/* Index_Three_Sec_Layout */
+.Index_Three_Sec_Layout {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+.Index_Three_Sec_Layout .left_Comp {
+  width: 20%;
+}
+.Index_Three_Sec_Layout .Mid_Comp {
+  width: 60%;
+}
+.Index_Three_Sec_Layout .Right_Comp {
+  width: 20%;
+}
+
+.Index_Three_Sec_Layout .left_Comp .Trading_News {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+.Index_Three_Sec_Layout .left_Comp .Trading_News button {
+  background-color: #2965ff;
+  color: #fff;
+  border: 1px solid #2965ff;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: Inter;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Index_Three_Sec_Layout .left_Comp .Trading_News .desc {
+  margin-top: 10px;
+}
+.Index_Three_Sec_Layout .left_Comp .Trading_News .desc .head {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0;
+}
+
+.Index_Three_Sec_Layout .left_Comp .Trading_News .desc .two_sec {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+.Index_Three_Sec_Layout .left_Comp .Trading_News .desc .two_sec div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Index_Three_Sec_Layout .left_Comp .Trading_News .desc .two_sec div p {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 8px;
+}
+.Index_Three_Sec_Layout .left_Comp .Trading_News .desc .empty {
+  width: 100%;
+  height: 2px;
+  background-color: #bfbfbf;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Index_Three_Sec_Layout .left_Comp .BigImage {
+  width: 100%;
+  padding-top: 20px;
+}
+.Index_Three_Sec_Layout .left_Comp .BigImage img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.Index_Three_Sec_Layout .Right_Comp {
+  background: #f7f7f7;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.Index_Three_Sec_Layout .Right_Comp .Main_Item .Three_Sec {
+  display: flex;
+  justify-content: space-between;
+}
+.Index_Three_Sec_Layout .Right_Comp .Main_Item .Three_Sec .First_Btn {
+  background: #2965ff;
+  border-radius: 10px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  border: 1px solid #2965ff;
+  color: #ffffff;
+  width: 89.88px;
+  height: 36px;
+}
+
+.Index_Three_Sec_Layout .Right_Comp .Main_Item .Three_Sec div {
+  display: flex;
+}
+.Index_Three_Sec_Layout .Right_Comp .Main_Item .Three_Sec div .First {
+  padding: 10px;
+  border: 1px solid #2965ff;
+  border-radius: 6.22229px 0px 0px 6.22229px;
+  background: #2965ff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.Index_Three_Sec_Layout .Right_Comp .Main_Item .Three_Sec div button {
+  padding: 10px;
+  border: 1px solid #2965ff;
+  color: #2965ff;
+  background: #FFFFFF;
+border: 0.622229px solid #2965FF;
+border-radius: 0px 6.22229px 6.22229px 0px;
+  padding: 7.46674px 12.4446px 8.08897px;
+  font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 12px;
+text-transform: uppercase;
+}

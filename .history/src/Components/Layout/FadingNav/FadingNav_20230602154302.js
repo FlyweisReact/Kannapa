@@ -1,0 +1,23 @@
+import React from "react";
+import { Dropdown } from "react-bootstrap";
+
+const FadingNav = () => {
+    return (
+        <>
+          <div className="Navbar">
+            <div className="Left_Container">
+              <div className="Logo_Div">
+                <img src="./Images/logo.png" alt="" />
+                <p>FANATIKK</p>
+              </div>
+            </div>
+    
+            <div className="Right_Container">
+          =
+            </div>
+          </div>
+        </>
+      );
+}
+
+export default FadingNav

@@ -1,0 +1,173 @@
+/**
+ * === navbar styling ====
+ *
+ * @format
+ */
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #2965ff;
+  padding: 20px;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+}
+
+.Navbar .Left_Container {
+  width: 30%;
+}
+.Navbar .Left_Container .Logo_Div {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.Navbar .Left_Container .Logo_Div p {
+  color: #fff;
+  font-size: var(--mediumFont);
+  margin: 0;
+}
+.Navbar .Left_Container .Logo_Div img {
+  width: 47.73px;
+  height: 40px;
+}
+
+.Navbar .Right_Container {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.Navbar .Right_Container .Item {
+  display: flex;
+  justify-content: baseline;
+}
+
+.Navbar .Right_Container .Item p {
+  font-size: 16px;
+  cursor: pointer;
+  color: #ffffff;
+  padding-top: 2px;
+}
+
+.Navbar .Right_Container .Item .DropDown {
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+.Navbar .Right_Container .Item .fa-magnifying-glass {
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  padding-top: 7px;
+}
+
+/* Header 2 */
+.Header1 {
+  background-image: url("../../public/Images/22.png");
+  color: #ffffff;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 119px;
+  padding: 20px;
+}
+.Header1 .Main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.Header1 .Main p {
+  margin: 0;
+}
+.Header1 .Main .Head {
+  font-family:   MontserratNormal;
+  font-weight: 600;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.Header1 .Main .Two{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+.Header1 .Main .Two p{
+    font-family: MontserratNormal;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 17px;
+color: #FFFFFF;
+}
+.Header1 .Main .Social{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+/* Fading Navbar */
+
+
+.Fading_Nav {
+    display: flex;
+    justify-content: space-between;
+    background: #2965ff;
+    padding: 30px;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .Fading_Nav .Left_Container {
+    width: 30%;
+  }
+  .Fading_Nav .Left_Container .Logo_Div {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .Fading_Nav .Left_Container .Logo_Div p {
+    color: #fff;
+    font-size: var(--mediumFont);
+    margin: 0;
+  }
+  .Fading_Nav .Left_Container .Logo_Div img {
+    width: 47.73px;
+    height: 40px;
+  }
+  
+  .Fading_Nav .Right_Container {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+  }
+  .Fading_Nav .Right_Container button{
+    font-family: MontserratNormal;
+font-style: normal;
+font-weight: 600;
+width: 83px;
+height: 37px;
+border-radius: 10px;
+font-size: 15px;
+line-height: 19px;
+color: #2965FF;
+background-color: #fff;
+border: 1px solid #fff;
+  }
+  .Fading_Nav .Right_Container .Toggle {
+    width: ;
+  }

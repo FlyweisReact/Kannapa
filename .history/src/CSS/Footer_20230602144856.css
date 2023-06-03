@@ -1,0 +1,12 @@
+.Footer{
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+    align-items: baseline;
+}
+.Footer .Left_Comp{
+    width: 15%;
+    
+}

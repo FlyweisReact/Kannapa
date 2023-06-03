@@ -1,0 +1,48 @@
+
+/* === navbar styling ====*/
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #2965ff;
+    padding: 20px;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .Navbar .Left_Container {
+    width: 30%;
+  }
+  .Navbar .Left_Container .Logo_Div {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .nav3 {
+    width: 70%;
+  }
+
+
+
+  .nav4 img {
+    height: 60px;
+    width: 40px;
+  }
+  .Navbar .Left_Container .Logo_Div  p {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .nav5 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  .nav5itm p {
+    color: #fff;
+    font-size: 20px;
+  }
+  
