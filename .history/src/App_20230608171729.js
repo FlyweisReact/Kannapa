@@ -22,9 +22,6 @@ import "./CSS/Component.css";
 import "./CSS/Footer.css";
 
 // ---------------
-
-
-
 function App() {
   return (
     <div className="App">

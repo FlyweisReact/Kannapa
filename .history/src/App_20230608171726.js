@@ -9,6 +9,7 @@ import HomeScreen from "./Pages/HomeScreen";
 import Sport from "./Pages/Sport";
 import FantasyPreview from "./Pages/FantasyPreview";
 import LiveScore from "./Pages/LiveScore";
+
 import VideoScreen from "./Pages/VideoScreen";
 import AboutUs from "./Pages/AboutUs";
 import Predict from "./Pages/Predict";
@@ -22,9 +23,6 @@ import "./CSS/Component.css";
 import "./CSS/Footer.css";
 
 // ---------------
-
-
-
 function App() {
   return (
     <div className="App">

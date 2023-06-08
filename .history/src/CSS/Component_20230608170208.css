@@ -2222,13 +2222,14 @@
   text-transform: uppercase;
   color: #1d1d1d;
 }
-.Trading_Div .Left_Comp .Comment_Div .Main {
+.Trading_Div .Left_Comp .Comment_Div div {
   display: flex;
   gap: 30px;
   align-items: center;
 }
-.Trading_Div .Left_Comp .Comment_Div .Main input {
+.Trading_Div .Left_Comp .Comment_Div div input {
   width: 60%;
+
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -2238,20 +2239,4 @@
   border-radius: 50px;
   padding: 10px;
   outline: none;
-}
-.Trading_Div .Left_Comp .Comment_Div .Main div{
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  border: 1px solid black;
-  border-radius: 50px;
-  padding: 10px;
-  width: 120.36px;
-height: 35px;
-}
-.Trading_Div .Left_Comp .Comment_Div .Main div p{
-  font-size: 14px;
-line-height: 17px;
-margin: 0;
-
 }

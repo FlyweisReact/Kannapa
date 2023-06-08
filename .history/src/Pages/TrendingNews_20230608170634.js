@@ -1,16 +1,9 @@
 /** @format */
 
-import React, { useEffect } from "react";
+import React from "react";
 import Navbar from "../Components/Layout/Navbar";
-import Footer from '../Components/Layout/Footer'
 
 const TrendingNews = () => {
-
-  useEffect(() => {
-    window.scrollTo(0,0)
-  },[])
-
-
   return (
     <>
       <Navbar />
@@ -22,10 +15,11 @@ const TrendingNews = () => {
       <div className="Live_Score_Two_Sec Trading_Div">
         <div className="Left_Comp">
           <p className="Head">
-          Can Lionel Messi and Cristiano Ronaldo play against each other in club football? - Explained
+            IPL 2023: SRH vs RCB Stats Review - Check out the records broken by
+            Virat Kohli and more
           </p>
           <p className="desc">
-          Lionel Messi ended up winning the Ballon d’Or seven times, while Cristiano Ronaldo won the prestigious award five times, during their historic rivalry in football.
+            King Kohli went on to smash another classical hundred for RCB.
           </p>
 
           <div className="Trading_Two_Sec">
@@ -42,40 +36,81 @@ const TrendingNews = () => {
           </div>
 
           <div className="Trading_Image">
-            <img src="https://sportstiger-images.s3.ap-south-1.amazonaws.com/media/ronaldo-al-nassr-messi-inter-miami-sportstiger-1686219404911-original.jpg" alt="" />
+            <img src="./Images/117.png" alt="" />
           </div>
 
           <div className="Trading_Content">
             <p>
-            Lionel Messi and Cristiano Ronaldo, two of the biggest footballers in the world, are in the twilight phase of their professional careers. In the last couple of decades, they have faced each other mult . . . 
-            This rivalry ended up defining the sport, especially during the 2010s, as Lionel Messi ended up winning the Ballon d’Or seven times, while Cristiano Ronaldo won the prestigious award five times.
-
-            In 2014, they took on each other once in an international friendly, when Portugal defeated Argentina by 1-0, thanks to a stoppage-time winner from Raphael Guerreiro at the Old Trafford. It wasn’t an i . . . 
-            Lionel Messi and Cristiano Ronaldo, two of the biggest footballers in the world, are in the twilight phase of their professional careers. In the last couple of decades, they have faced each other mult . . . 
-            This rivalry ended up defining the sport, especially during the 2010s, as Lionel Messi ended up winning the Ballon d’Or seven times, while Cristiano Ronaldo won the prestigious award five times.
-
-            In 2014, they took on each other once in an international friendly, when Portugal defeated Argentina by 1-0, thanks to a stoppage-time winner from Raphael Guerreiro at the Old Trafford. It wasn’t an i . . . 
-            Lionel Messi and Cristiano Ronaldo, two of the biggest footballers in the world, are in the twilight phase of their professional careers. In the last couple of decades, they have faced each other mult . . . 
-            This rivalry ended up defining the sport, especially during the 2010s, as Lionel Messi ended up winning the Ballon d’Or seven times, while Cristiano Ronaldo won the prestigious award five times.
-
-            In 2014, they took on each other once in an international friendly, when Portugal defeated Argentina by 1-0, thanks to a stoppage-time winner from Raphael Guerreiro at the Old Trafford. It wasn’t an i . . . 
-            Lionel Messi and Cristiano Ronaldo, two of the biggest footballers in the world, are in the twilight phase of their professional careers. In the last couple of decades, they have faced each other mult . . . 
-            This rivalry ended up defining the sport, especially during the 2010s, as Lionel Messi ended up winning the Ballon d’Or seven times, while Cristiano Ronaldo won the prestigious award five times.
-
-            In 2014, they took on each other once in an international friendly, when Portugal defeated Argentina by 1-0, thanks to a stoppage-time winner from Raphael Guerreiro at the Old Trafford. It wasn’t an i . . . 
-            Lionel Messi and Cristiano Ronaldo, two of the biggest footballers in the world, are in the twilight phase of their professional careers. In the last couple of decades, they have faced each other mult . . . 
-            This rivalry ended up defining the sport, especially during the 2010s, as Lionel Messi ended up winning the Ballon d’Or seven times, while Cristiano Ronaldo won the prestigious award five times.
-
-            In 2014, they took on each other once in an international friendly, when Portugal defeated Argentina by 1-0, thanks to a stoppage-time winner from Raphael Guerreiro at the Old Trafford. It wasn’t an i . . . 
-            Lionel Messi and Cristiano Ronaldo, two of the biggest footballers in the world, are in the twilight phase of their professional careers. In the last couple of decades, they have faced each other mult . . . 
-            This rivalry ended up defining the sport, especially during the 2010s, as Lionel Messi ended up winning the Ballon d’Or seven times, while Cristiano Ronaldo won the prestigious award five times.
-
-            In 2014, they took on each other once in an international friendly, when Portugal defeated Argentina by 1-0, thanks to a stoppage-time winner from Raphael Guerreiro at the Old Trafford. It wasn’t an i . . . 
-            Lionel Messi and Cristiano Ronaldo, two of the biggest footballers in the world, are in the twilight phase of their professional careers. In the last couple of decades, they have faced each other mult . . . 
-            This rivalry ended up defining the sport, especially during the 2010s, as Lionel Messi ended up winning the Ballon d’Or seven times, while Cristiano Ronaldo won the prestigious award five times.
-
-            In 2014, they took on each other once in an international friendly, when Portugal defeated Argentina by 1-0, thanks to a stoppage-time winner from Raphael Guerreiro at the Old Trafford. It wasn’t an i . . . 
-
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua. At vero eos et accusam et justo duo
+              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+              invidunt ut labore et dolore magna aliquyam erat, sed diam
+              voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+              dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+              elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+              magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+              justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+              takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+              sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+              voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+              dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+              elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+              magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+              justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+              takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+              sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+              voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+              dolor sit amet.amet, consetetur sadipscing elitr, sed diam nonumy
+              eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et
+              ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+              sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+              et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+              accusam et justo duo dolores et ea rebum. Stet clita kasd
+              gubergren Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+              aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+              duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+              takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+              sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+              voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+              dolor sit amet.amet, consetetur sadipscing elitr, sed diam nonumy
+              eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et
+              ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+              sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+              et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+              accusam et justo duo dolores et ea rebum. Stet clita kasd
+              gubergren Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+              aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+              duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+              takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+              sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+              voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+              dolor sit amet.amet, consetetur sadipscing elitr, sed diam nonumy
+              eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et
+              ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+              sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+              et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+              accusam et justo duo dolores et ea rebum. Stet clita kasd
+              gubergren{" "}
             </p>
           </div>
 
@@ -220,7 +255,7 @@ const TrendingNews = () => {
         </div>
       </div>
 
-      <Footer />
+      <Footer
     </>
   );
 };

@@ -48,33 +48,17 @@ const TrendingNews = () => {
           <div className="Trading_Content">
             <p>
             Lionel Messi and Cristiano Ronaldo, two of the biggest footballers in the world, are in the twilight phase of their professional careers. In the last couple of decades, they have faced each other mult . . . 
-            This rivalry ended up defining the sport, especially during the 2010s, as Lionel Messi ended up winning the Ballon d’Or seven times, while Cristiano Ronaldo won the prestigious award five times.
 
-            In 2014, they took on each other once in an international friendly, when Portugal defeated Argentina by 1-0, thanks to a stoppage-time winner from Raphael Guerreiro at the Old Trafford. It wasn’t an i . . . 
-            Lionel Messi and Cristiano Ronaldo, two of the biggest footballers in the world, are in the twilight phase of their professional careers. In the last couple of decades, they have faced each other mult . . . 
-            This rivalry ended up defining the sport, especially during the 2010s, as Lionel Messi ended up winning the Ballon d’Or seven times, while Cristiano Ronaldo won the prestigious award five times.
+Read More: https://www.sportstiger.com/news/can-lionel-messi-and-cristiano-ronaldo-play-against-each-other-in-club-football-explained
 
-            In 2014, they took on each other once in an international friendly, when Portugal defeated Argentina by 1-0, thanks to a stoppage-time winner from Raphael Guerreiro at the Old Trafford. It wasn’t an i . . . 
-            Lionel Messi and Cristiano Ronaldo, two of the biggest footballers in the world, are in the twilight phase of their professional careers. In the last couple of decades, they have faced each other mult . . . 
-            This rivalry ended up defining the sport, especially during the 2010s, as Lionel Messi ended up winning the Ballon d’Or seven times, while Cristiano Ronaldo won the prestigious award five times.
+Follow us on: 
+Facebook: https://www.facebook.com/sportstiger
+Instagram: https://www.instagram.com/sportstiger_official
+Twitter: https://twitter.com/The_SportsTiger
+Youtube: https://www.youtube.com/c/SportsTigerOfficial
+Telegram: https://ttttt.me/SportsTigerOfficial
+Koo: https://www.kooapp.com/profile/sportstiger 
 
-            In 2014, they took on each other once in an international friendly, when Portugal defeated Argentina by 1-0, thanks to a stoppage-time winner from Raphael Guerreiro at the Old Trafford. It wasn’t an i . . . 
-            Lionel Messi and Cristiano Ronaldo, two of the biggest footballers in the world, are in the twilight phase of their professional careers. In the last couple of decades, they have faced each other mult . . . 
-            This rivalry ended up defining the sport, especially during the 2010s, as Lionel Messi ended up winning the Ballon d’Or seven times, while Cristiano Ronaldo won the prestigious award five times.
-
-            In 2014, they took on each other once in an international friendly, when Portugal defeated Argentina by 1-0, thanks to a stoppage-time winner from Raphael Guerreiro at the Old Trafford. It wasn’t an i . . . 
-            Lionel Messi and Cristiano Ronaldo, two of the biggest footballers in the world, are in the twilight phase of their professional careers. In the last couple of decades, they have faced each other mult . . . 
-            This rivalry ended up defining the sport, especially during the 2010s, as Lionel Messi ended up winning the Ballon d’Or seven times, while Cristiano Ronaldo won the prestigious award five times.
-
-            In 2014, they took on each other once in an international friendly, when Portugal defeated Argentina by 1-0, thanks to a stoppage-time winner from Raphael Guerreiro at the Old Trafford. It wasn’t an i . . . 
-            Lionel Messi and Cristiano Ronaldo, two of the biggest footballers in the world, are in the twilight phase of their professional careers. In the last couple of decades, they have faced each other mult . . . 
-            This rivalry ended up defining the sport, especially during the 2010s, as Lionel Messi ended up winning the Ballon d’Or seven times, while Cristiano Ronaldo won the prestigious award five times.
-
-            In 2014, they took on each other once in an international friendly, when Portugal defeated Argentina by 1-0, thanks to a stoppage-time winner from Raphael Guerreiro at the Old Trafford. It wasn’t an i . . . 
-            Lionel Messi and Cristiano Ronaldo, two of the biggest footballers in the world, are in the twilight phase of their professional careers. In the last couple of decades, they have faced each other mult . . . 
-            This rivalry ended up defining the sport, especially during the 2010s, as Lionel Messi ended up winning the Ballon d’Or seven times, while Cristiano Ronaldo won the prestigious award five times.
-
-            In 2014, they took on each other once in an international friendly, when Portugal defeated Argentina by 1-0, thanks to a stoppage-time winner from Raphael Guerreiro at the Old Trafford. It wasn’t an i . . . 
 
             </p>
           </div>
