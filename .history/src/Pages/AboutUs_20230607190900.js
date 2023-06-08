@@ -1,0 +1,20 @@
+import React from 'react'
+import Navbar from '../Components/Layout/Navbar'
+
+const AboutUs = () => {
+  return (
+    <>
+        <Navbar />
+
+        <div className='AboutUs_Banner'>
+            <p>About Us</p>
+        </div>
+
+        <div className='AboutUs_Content'>
+            <p></p>
+        </div>
+    </>
+  )
+}
+
+export default AboutUs
