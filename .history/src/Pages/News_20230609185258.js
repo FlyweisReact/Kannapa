@@ -5,7 +5,7 @@ import IndexVideoSlider from '../Components/Sliders/Index-video-Slider';
 
 const News = () => {
     useEffect(() => {
-        // window.scrollTo(0,0)
+        window.scrollTo(0,0)
       },[])
       return (
         <>
@@ -74,59 +74,65 @@ const News = () => {
               <p className="desc">May 10,2023 8:39 PM</p>
             </div>
             <div className="Main_Component">
-              <img src="https://e0.365dm.com/23/06/1600x900/skysports-moyes-rice-west-ham_6181235.jpg?20230607231733" alt="" />
+              <img src="https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/E594/production/_130027785_gettyimages-1252212380.jpg" alt="" />
               <p className="head">
               Champions League final: Simone Inzaghi - the 'nice guy' who turned Inter Milan fortunes around
               </p>
               <p className="desc">May 10,2023 8:39 PM</p>
             </div>
             <div className="Main_Component">
-              <img src="https://e0.365dm.com/23/05/1600x900/skysports-brighton-liverpool_6172518.jpg?20230529164319" alt="" />
+              <img src="./Images/8.png" alt="" />
               <p className="head">
-              What next for eight Premier League clubs to have qualified for Europe? All you need to know about 2023/24 dates
-
+                CSK vs DC Dream 11 Prediction | Chennai Super Kings vs Delhi
+                Capitals Dream 11 | IPL 2023
               </p>
               <p className="desc">May 10,2023 8:39 PM</p>
             </div>
             <div className="Main_Component">
-              <img src="https://e0.365dm.com/23/05/1600x900/skysports-cody-gakpo-liverpool_6161638.jpg?20230520163721" alt="" />
+              <img src="./Images/8.png" alt="" />
               <p className="head">
-              Jurgen Klopp insists Liverpool will be Premier League contenders next season after ending an underwhelming campaign with a thrilling 4-4 draw at relegated Southampton.
+                CSK vs DC Dream 11 Prediction | Chennai Super Kings vs Delhi
+                Capitals Dream 11 | IPL 2023
               </p>
               <p className="desc">May 10,2023 8:39 PM</p>
             </div>
             <div className="Main_Component">
-              <img src="https://e0.365dm.com/23/05/1600x900/skysports-premier-league-aston-villa_6171285.jpg?20230528171646" alt="" />
+              <img src="./Images/8.png" alt="" />
               <p className="head">
-              "The result we achieved this year was incredible, Tony [Bloom], me and Paul Barber, we have the dream to improve this result"
+                CSK vs DC Dream 11 Prediction | Chennai Super Kings vs Delhi
+                Capitals Dream 11 | IPL 2023
               </p>
               <p className="desc">May 10,2023 8:39 PM</p>
             </div>
             <div className="Main_Component">
-              <img src="https://e0.365dm.com/23/06/1600x900/skysports-moyes-rice-west-ham_6181235.jpg?20230607231733" alt="" />
+              <img src="./Images/8.png" alt="" />
               <p className="head">
-              West Ham have qualified automatically for the Europa League group stages - and a Pot One spot - after their victory in the Europa Conference League final.
+                CSK vs DC Dream 11 Prediction | Chennai Super Kings vs Delhi
+                Capitals Dream 11 | IPL 2023
               </p>
               <p className="desc">May 10,2023 8:39 PM</p>
             </div>
             <div className="Main_Component">
-              <img src="https://sportstiger-images.s3.ap-south-1.amazonaws.com/media/benzema-al-ittihad-ballon-dor-sportstiger-1686297420341-original.jpg" alt="" />
+              <img src="./Images/8.png" alt="" />
               <p className="head">
-               Karim Benzema brings his Ballon d'Or award at Al-Ittihad presentation
+                CSK vs DC Dream 11 Prediction | Chennai Super Kings vs Delhi
+                Capitals Dream 11 | IPL 2023
               </p>
               <p className="desc">May 10,2023 8:39 PM</p>
             </div>
             <div className="Main_Component">
-              <img src="https://sportstiger-images.s3.ap-south-1.amazonaws.com/media/david-beckham-1686157744831-original.jpg" alt="" />
+              <img src="./Images/8.png" alt="" />
               <p className="head">
-              David Beckham: Net Worth, Salary, Achievements, Car Collections, Records, and More
+                CSK vs DC Dream 11 Prediction | Chennai Super Kings vs Delhi
+                Capitals Dream 11 | IPL 2023
               </p>
               <p className="desc">May 10,2023 8:39 PM</p>
             </div>
             <div className="Main_Component">
-              <img src="https://sportstiger-images.s3.ap-south-1.amazonaws.com/media/jude-beligum-sportstiger-1686150525128-original.jpg" alt="" />
+              <img src="./Images/8.png" alt="" />
               <p className="head">
-               Borussia Dortmund confirms Jude Bellingham's transfer to Real Madrid
+                CSK vs DC Dream 11 Prediction | Chennai Super Kings vs Delhi
+                Capitals Dream 11 | IPL 2023
               </p>
               <p className="desc">May 10,2023 8:39 PM</p>
             </div>    

@@ -126,7 +126,8 @@ const News = () => {
             <div className="Main_Component">
               <img src="https://sportstiger-images.s3.ap-south-1.amazonaws.com/media/jude-beligum-sportstiger-1686150525128-original.jpg" alt="" />
               <p className="head">
-               Borussia Dortmund confirms Jude Bellingham's transfer to Real Madrid
+                CSK vs DC Dream 11 Prediction | Chennai Super Kings vs Delhi
+                Capitals Dream 11 | IPL 2023
               </p>
               <p className="desc">May 10,2023 8:39 PM</p>
             </div>    

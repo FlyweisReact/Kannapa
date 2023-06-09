@@ -436,7 +436,7 @@ const HomeScreen = () => {
               <button>Fantasy Videos</button>
 
               <div className="Full_Image">
-                <img src="https://sportstiger-images.s3.ap-south-1.amazonaws.com/media/zlatan-ibrahimovic-sportstiger-1686160909872-original.jpg" alt="" />
+                <img src="./Images/67.png" alt="" />
                 <p className="date">12 May 2023</p>
                 <p className="desc">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed

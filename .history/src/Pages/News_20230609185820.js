@@ -127,6 +127,17 @@ const News = () => {
               <img src="https://sportstiger-images.s3.ap-south-1.amazonaws.com/media/jude-beligum-sportstiger-1686150525128-original.jpg" alt="" />
               <p className="head">
                Borussia Dortmund confirms Jude Bellingham's transfer to Real Madrid
+
+
+Read More: https://www.sportstiger.com/news/borussia-dortmund-confirms-jude-bellinghams-transfer-to-real-madrid
+
+Follow us on: 
+Facebook: https://www.facebook.com/sportstiger
+Instagram: https://www.instagram.com/sportstiger_official
+Twitter: https://twitter.com/The_SportsTiger
+Youtube: https://www.youtube.com/c/SportsTigerOfficial
+Telegram: https://ttttt.me/SportsTigerOfficial
+Koo: https://www.kooapp.com/profile/sportstiger
               </p>
               <p className="desc">May 10,2023 8:39 PM</p>
             </div>    
