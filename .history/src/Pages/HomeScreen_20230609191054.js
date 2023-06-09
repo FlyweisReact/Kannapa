@@ -44,7 +44,7 @@ const HomeScreen = () => {
       setModalShow(false);
     }, [8000]);
 
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }, []);
 
   return (
@@ -403,9 +403,11 @@ const HomeScreen = () => {
 
               <hr />
               <div className="Two_Sec">
-                <img src="https://sportstiger-images.s3.ap-south-1.amazonaws.com/media/messi-intermiami-sportstiger-1686204265845-original.jpg" alt="" />
+                <img src="./Images/65.png" alt="" />
                 <p>
-                Welcome Messi: Giannis Antetokounmpo, Kevin Durant and NBA react on Lionel Messi joining Inter Miami
+                  Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit
+                  amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem
+                  ipsum dolor sit amet, consetetur
                 </p>
               </div>
 

@@ -44,7 +44,7 @@ const HomeScreen = () => {
       setModalShow(false);
     }, [8000]);
 
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }, []);
 
   return (
@@ -406,6 +406,9 @@ const HomeScreen = () => {
                 <img src="https://sportstiger-images.s3.ap-south-1.amazonaws.com/media/messi-intermiami-sportstiger-1686204265845-original.jpg" alt="" />
                 <p>
                 Welcome Messi: Giannis Antetokounmpo, Kevin Durant and NBA react on Lionel Messi joining Inter Miami
+
+
+Read More: https://www.sportstiger.com/news/welcome-messi-giannis-antetokounmpo-kevin-durant-and-nba-react-on-lionel-messi-joining-inter-miami
                 </p>
               </div>
 

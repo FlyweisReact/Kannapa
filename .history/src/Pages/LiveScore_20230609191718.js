@@ -196,9 +196,10 @@ const LiveScore = () => {
             </div>
 
             <div className="third15">
-              <img src="https://cdn.theathletic.com/cdn-cgi/image/width=1920,format=auto/https://cdn.theathletic.com/app/uploads/2023/03/15125612/kbenz-scaled-e1678899415886-1024x663.jpeg" alt="" />
+              <img src="./Images/8.png" alt="" />
               <h4>
-              Will Benzema leaving Real Madrid create a ripple effect in soccer's summer transfer window?
+                CSK vs DC Dream 11 Prediction | Chennai Super Kings vs Delhi
+                Capitals Dream 11 | IPL 2023
               </h4>
               <p>May 10,2023 8:39 AM</p>
             </div>

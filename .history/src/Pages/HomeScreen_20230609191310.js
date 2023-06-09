@@ -44,7 +44,7 @@ const HomeScreen = () => {
       setModalShow(false);
     }, [8000]);
 
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }, []);
 
   return (
@@ -445,7 +445,7 @@ const HomeScreen = () => {
               </div>
 
               <div className="Two_Div">
-                <img src="./Images/68.png" alt="" />
+                <img src="https://sportstiger-images.s3.ap-south-1.amazonaws.com/media/robert-lewandowski-sportstiger-1686145977736-original.jpg" alt="" />
                 <div>
                   <p className="date">12 May 2023</p>
                   <p className="desc">

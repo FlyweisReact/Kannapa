@@ -196,17 +196,19 @@ const LiveScore = () => {
             </div>
 
             <div className="third15">
-              <img src="https://cdn.theathletic.com/cdn-cgi/image/width=1920,format=auto/https://cdn.theathletic.com/app/uploads/2023/03/15125612/kbenz-scaled-e1678899415886-1024x663.jpeg" alt="" />
+              <img src="./Images/8.png" alt="" />
               <h4>
-              Will Benzema leaving Real Madrid create a ripple effect in soccer's summer transfer window?
+                CSK vs DC Dream 11 Prediction | Chennai Super Kings vs Delhi
+                Capitals Dream 11 | IPL 2023
               </h4>
               <p>May 10,2023 8:39 AM</p>
             </div>
 
             <div className="third15">
-              <img src="https://i.guim.co.uk/img/media/d6cda88cb81b40f9c5b428520482e22103c32c5c/0_292_4499_2700/master/4499.jpg?width=620&quality=85&dpr=1&s=none" alt="" />
+              <img src="./Images/90.png" alt="" />
               <h4>
-              Football transfer rumours: Son Heung-min and Wilfried Zaha to Saudi Arabia?
+                Rashid Khan & Noor Ahmad The Best Spin Duo In IPL 2023? | The
+                Afghani Spin Wizards Of Gujarat Titans
               </h4>
               <p>May 9, 2023 6:42 PM</p>
             </div>

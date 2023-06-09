@@ -44,7 +44,7 @@ const HomeScreen = () => {
       setModalShow(false);
     }, [8000]);
 
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }, []);
 
   return (
@@ -390,22 +390,35 @@ const HomeScreen = () => {
                 The Brazilian Sports Court (STJD) banned Catatau, while also handing him a $14000 fine, and his four teammates for their involvement in an illegal betting scheme.
 
 
+Read More: https://www.sportstiger.com/news/former-mumbai-city-fc-striker-ygor-catatau-permanently-banned-from-football
+
+Follow us on: 
+Facebook: https://www.facebook.com/sportstiger
+Instagram: https://www.instagram.com/sportstiger_official
+Twitter: https://twitter.com/The_SportsTiger
+Youtube: https://www.youtube.com/c/SportsTigerOfficial
+Telegram: https://ttttt.me/SportsTigerOfficial
+Koo: https://www.kooapp.com/profile/sportstiger
                 </p>
               </div>
 
               <hr />
               <div className="Two_Sec">
-                <img src="https://sportstiger-images.s3.ap-south-1.amazonaws.com/media/vinicius-jr-sportstiger-1686130273699-original.jpg" alt="" />
+                <img src="./Images/64.png" alt="" />
                 <p>
-                Rio de Janeiro legislative assembly approves 'Vinicius Junior Law' to curtail Racism
+                  Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit
+                  amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem
+                  ipsum dolor sit amet, consetetur
                 </p>
               </div>
 
               <hr />
               <div className="Two_Sec">
-                <img src="https://sportstiger-images.s3.ap-south-1.amazonaws.com/media/messi-intermiami-sportstiger-1686204265845-original.jpg" alt="" />
+                <img src="./Images/65.png" alt="" />
                 <p>
-                Welcome Messi: Giannis Antetokounmpo, Kevin Durant and NBA react on Lionel Messi joining Inter Miami
+                  Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit
+                  amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem
+                  ipsum dolor sit amet, consetetur
                 </p>
               </div>
 

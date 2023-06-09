@@ -44,7 +44,7 @@ const HomeScreen = () => {
       setModalShow(false);
     }, [8000]);
 
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }, []);
 
   return (
@@ -387,25 +387,26 @@ const HomeScreen = () => {
                 <img src="https://sportstiger-images.s3.ap-south-1.amazonaws.com/media/mumbai-city-fc-striker-ygor-catatau-sportstiger-1686229892450-original.jpg" alt="" />
                 <p>
                 Former Mumbai City FC striker Ygor Catatau permanently banned from football <br />
-                The Brazilian Sports Court (STJD) banned Catatau, while also handing him a $14000 fine, and his four teammates for their involvement in an illegal betting scheme.
-
-
                 </p>
               </div>
 
               <hr />
               <div className="Two_Sec">
-                <img src="https://sportstiger-images.s3.ap-south-1.amazonaws.com/media/vinicius-jr-sportstiger-1686130273699-original.jpg" alt="" />
+                <img src="./Images/64.png" alt="" />
                 <p>
-                Rio de Janeiro legislative assembly approves 'Vinicius Junior Law' to curtail Racism
+                  Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit
+                  amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem
+                  ipsum dolor sit amet, consetetur
                 </p>
               </div>
 
               <hr />
               <div className="Two_Sec">
-                <img src="https://sportstiger-images.s3.ap-south-1.amazonaws.com/media/messi-intermiami-sportstiger-1686204265845-original.jpg" alt="" />
+                <img src="./Images/65.png" alt="" />
                 <p>
-                Welcome Messi: Giannis Antetokounmpo, Kevin Durant and NBA react on Lionel Messi joining Inter Miami
+                  Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit
+                  amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem
+                  ipsum dolor sit amet, consetetur
                 </p>
               </div>
 
