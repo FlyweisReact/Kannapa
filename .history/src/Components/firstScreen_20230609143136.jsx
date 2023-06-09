@@ -1,11 +1,14 @@
 /** @format */
 
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "./Layout/Footer";
 import Navbar from "./Layout/Navbar";
 import IndexVideoSlider from "./Sliders/Index-video-Slider";
 
 const FirstScreen = () => {
+  useEffect(() => {
+    window.scr
+  })
   return (
     <>
       <Navbar />
