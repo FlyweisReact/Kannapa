@@ -1,0 +1,95 @@
+/**
+ * laptop
+ *
+ * @format
+ */
+
+@media screen and (min-width: 780px) and (max-width: 1500px) {
+  /* -------------------- */
+  .Navbar .Left_Container {
+    width: 10%;
+  }
+  .Navbar .Left_Container .Logo_Div img {
+    width: 40px;
+    height: 33px;
+  }
+  .Navbar .Left_Container .Logo_Div p {
+    font-size: 20px;
+  }
+  .Navbar .Right_Container {
+    width: 80%;
+  }
+  .Navbar .Right_Container .Item p {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .Navbar .Right_Container .Item .DropDown {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .Navbar .Right_Container .Item .fa-magnifying-glass {
+    padding-top: 12px;
+  }
+  .Navbar .Right_Container .Item .Toggle {
+    margin-top: 13px;
+  }
+  /* ------------------------------- */
+
+  .Fading_Category .Left_Container {
+    width: 80%;
+  }
+  .ScoreCard_Slider {
+    padding-left: 40px;
+  }
+
+  /* ------------------------------- */
+  .Index_Three_Sec_Layout .left_Comp {
+    width: 25%;
+  }
+  .Index_Three_Sec_Layout .Right_Comp {
+    width: 25%;
+  }
+
+  .Index_Three_Sec_Layout .Mid_Comp {
+    width: 50%;
+  }
+
+  .Index_Three_Sec_Layout .Right_Comp .Big_Div .Four_Button button {
+    width: 25%;
+  }
+  .Blog_Slider{
+    max-height: 550px;
+  }
+  .Blog_Slider .first .desc  {
+    top: 90% !important;
+  }
+  /* -------------------- */
+  .Slider_Container_Div .Video_Slider .Main_Item{
+    width: 350px  !important;
+    height: 270px  !important;
+  }
+  /* ------------------------- */
+  .Footer .Upper_Footer .Left_Comp {
+    width: 30%;
+  }
+  .Footer .Upper_Footer .Mid_Comp {
+    width: 30%;
+  }
+  .Footer .Upper_Footer .Left_Comp .Social_Div p {
+    font-size: 16px;
+  }
+  /* ---------------------------------- */
+  .Predict_Win .Left_Comp {
+    width: 30%;
+  }
+  .Predict_Win .Right_Comp{
+    width: 60%;
+  }
+  .Predict_Win .Left_Comp .first .title  {
+    width: ;
+  }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 980px) {
+}

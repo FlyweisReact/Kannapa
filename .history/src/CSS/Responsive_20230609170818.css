@@ -1,0 +1,27 @@
+/**
+ * laptop
+ *
+ * @format
+ */
+
+@media screen and (min-width: 780px) and (max-width: 1500px) {
+    .Fading_Category .Left_Container {
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 600px) and (max-width: 980px) {
+}
