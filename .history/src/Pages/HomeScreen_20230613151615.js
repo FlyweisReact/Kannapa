@@ -51,7 +51,10 @@ const HomeScreen = () => {
     <>
       <AdModal show={modalShow} onHide={() => setModalShow(false)} />
       <section className="HomePage">
-        <div className={`${scrolled ? "fade-out" : "fade-in"}`}>
+        <div
+          className={`${scrolled ? "fade-out" : "fade-in"}`}
+          style={{ display: "none" }}
+        >
           <Header1 />
           <FadingNav />
           <FadingCategory />

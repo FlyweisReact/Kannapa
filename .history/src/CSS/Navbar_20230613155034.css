@@ -15,13 +15,12 @@
   padding: 20px;
   width: 100%;
   gap: 20px;
-  position: fixed;
-  top: 0;
-  z-index: 999;
-  transition: box-shadow 0.3s ease;
+  position: sticky;
+  /* position: fixed; */
+  /* top: 0; */
+  /* z-index: 999; */
+  /* transition: box-shadow 0.3s ease; */
   align-items: center;
-  box-sizing: border-box;
-  
 }
 .Navbar .Right_Container .fa-bars{
   display: none;

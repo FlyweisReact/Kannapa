@@ -28,12 +28,17 @@
 
 body {
   font-family: Noto Sans;
-  background-color: #e7e7e7 !important;
+  background-color: green !important;
+  /* background-color: #e7e7e7 !important; */
   scroll-behavior: smooth;
-  overflow-x: hidden !important;
+  /* overflow-x: hidden !important; */
   width: 100%;
-  max-width: 100%;
-  position: relative;
+  border: 10px solid black;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
 }
 
 html{

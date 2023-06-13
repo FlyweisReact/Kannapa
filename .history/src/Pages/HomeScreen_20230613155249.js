@@ -317,7 +317,9 @@ const HomeScreen = () => {
             <div onClick={handleShow}>
               <img src="./Images/57.png" alt="" />
               <p>Lorem ipsum</p>
-            </div>
+            </div>urn void 0!==b[a]?b[a]:y("EXPERIMENT_FLAGS",{})[a]}
+            ;var ea=z("web_emulated_idle_callback_delay",300),B=1E3/60-3,ba=[8,5,4,3,2,1,0];
+            function C(a){a=void 0===a?{}:a;t.call(this);this.i=[];this.h={};this.D=this.g=0;this.C=this.l=!1;this.u=[];this.A=this.F=!1;for(var b=g(),c=b.next();!c.done;c=b.next())this.i[c.value]=[];this.j=0;this.N=a.timeout||1;this.o=B;this.m=0;this.H=this.R.bind(this);this.M=this.T.bind(this);this.J=this.O.bind(this);this.K=this.P.bind(this);this.L=this.S.bind(this);if(b=!!window.requestIdleCallback&&!!window.cancelIdleCallback)b=A("disable_scheduler_requestIdleCallback"),b=!("string"===typeof b&&"false"===
           </div>
         </div>
 

@@ -323,6 +323,7 @@ const HomeScreen = () => {
 
         {/*  */}
 
+
         <div className="Index_Three_Sec_Layout Index_Three_Sec_Layout_2 ">
           <div className="left_Comp">
             <div className="Trading_News">
@@ -448,7 +449,14 @@ const HomeScreen = () => {
           <div className="Right_Comp Hide_On_Tab">
             <img src="./Images/62.png" alt="" className="Center_Image" />
           </div>
+
+
         </div>
+
+
+
+
+
 
         <div className="Index_Trending_Reel">
           <p className="Head">Trending Reels</p>

@@ -7,21 +7,20 @@
     height: 100%;
     transition: box-shadow 0.3s ease;
     height: 80px;
+    width: 100%  !important;
 }
 .Navbar {
   display: flex;
   justify-content: space-between;
   background: #2965ff;
   padding: 20px;
-  width: 100%;
+  width: 100% !important;
   gap: 20px;
-  position: fixed;
+  position: static ;
   top: 0;
   z-index: 999;
   transition: box-shadow 0.3s ease;
   align-items: center;
-  box-sizing: border-box;
-  
 }
 .Navbar .Right_Container .fa-bars{
   display: none;
@@ -276,6 +275,7 @@ font-weight: 700;
     transition: opacity 0.5s;
     height: 0;
     overflow: hidden;
+    width: 100%;
 }
 .fade-in{
     opacity: 1;
@@ -283,6 +283,7 @@ font-weight: 700;
     height: auto;
     overflow: hidden;
     width: 100%;
+
 }
 
 

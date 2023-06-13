@@ -27,15 +27,23 @@
 
 
 body {
+  margin: 0;
   font-family: Noto Sans;
   background-color: #e7e7e7 !important;
+  /* width: 100px !important; */
   scroll-behavior: smooth;
-  overflow-x: hidden !important;
-  width: 100%;
-  max-width: 100%;
-  position: relative;
+  max-width: 100%  !important;
 }
-
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Noto Sans;
+  scroll-behavior: smooth;
+}
+code {
+  font-family:Noto Sans;
+  scroll-behavior: smooth;
+}
 html{
   font-family: Noto Sans;
   scroll-behavior: smooth;
