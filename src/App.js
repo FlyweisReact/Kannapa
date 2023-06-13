@@ -22,6 +22,7 @@ import "./CSS/Component.css";
 import "./CSS/Footer.css";
 import './CSS/Responsive.css'
 import './CSS/Tab.css'
+import './CSS/Mobile.css'
 // ---------------
 
 

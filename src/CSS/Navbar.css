@@ -291,6 +291,10 @@ font-weight: 700;
   background-color: transparent !important;
 }
 
+/* ------------ */
+ .Fading_Nav .Right_Container .fa-bars{
+  display: none;
+ }
 
 
 /* Mobile Bar */
@@ -349,4 +353,20 @@ text-decoration: none;
   cursor: pointer;
   align-items: center;
   margin-top: 8px;
+}
+.Mobile_Bar .offcanvas-body .LoginBtn{
+  font-family: MontserratNormal;
+  font-style: normal;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 20px;
+  height: 37px;
+  border-radius: 10px;
+  font-size: 15px;
+  line-height: 19px;
+  color: #2965ff;
+  background-color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+
 }

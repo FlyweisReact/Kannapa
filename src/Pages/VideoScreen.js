@@ -168,8 +168,7 @@ const VideoScreen = () => {
             </div>
           </div>
         </div>
-
-        <div className="Right_Comp">
+    <div className="Right_Comp">
           <div className="third8">
             <div className="third9">
               <button>LATEST NEWS</button>

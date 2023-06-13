@@ -2043,6 +2043,7 @@
 
 .ScoreCard_Two_Sec_Layout .Left_Comp .Table_Comp .fourth7 {
   margin-top: 30px;
+  overflow-x: auto;
 }
 
 .ScoreCard_Two_Sec_Layout .Left_Comp .Table_Comp .fourth8 {

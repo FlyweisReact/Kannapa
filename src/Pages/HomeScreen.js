@@ -44,7 +44,7 @@ const HomeScreen = () => {
       setModalShow(false);
     }, [8000]);
 
-    // window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
   }, []);
 
   return (
@@ -151,7 +151,7 @@ const HomeScreen = () => {
                 <div className="empty"></div>
               </div>
             </div>
-            <div className="BigImage">
+            <div className="BigImage Hide_This">
               <img src="./Images/37.png" alt="" />
             </div>
           </div>
@@ -322,6 +322,8 @@ const HomeScreen = () => {
         </div>
 
         {/*  */}
+
+
         <div className="Index_Three_Sec_Layout Index_Three_Sec_Layout_2 ">
           <div className="left_Comp">
             <div className="Trading_News">
@@ -447,7 +449,12 @@ const HomeScreen = () => {
           <div className="Right_Comp Hide_On_Tab">
             <img src="./Images/62.png" alt="" className="Center_Image" />
           </div>
+
+
         </div>
+
+
+
 
 
 
@@ -512,10 +519,10 @@ const HomeScreen = () => {
               </div>
             </div>
 
-            <div className="BigImage">
+            <div className="BigImage Hide_This">
               <img src="./Images/79.png" alt="" />
             </div>
-            <div className="BigImage">
+            <div className="BigImage Hide_This">
               <img src="./Images/79.png" alt="" />
             </div>
           </div>
