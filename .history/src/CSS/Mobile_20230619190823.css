@@ -66,7 +66,7 @@
   .Fading_Nav .Right_Container .Toggle {
     display: none;
   }
-  .Fading_Nav .Right_Container img {
+  .Fading_Nav .Right_Container .Toggle {
     display: none;
   }
 

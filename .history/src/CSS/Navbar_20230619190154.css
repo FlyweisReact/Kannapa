@@ -35,6 +35,9 @@
   align-items: center;
   cursor: pointer;
 }
+.Navbar .Left_Container .Logo_Div img {
+  width: 200px;
+}
 .Navbar .Left_Container .Logo_Div p {
   color: #fff;
   font-size: var(--mediumFont);
@@ -320,7 +323,6 @@
   font-size: 16px;
   cursor: pointer;
   color: #fff;
-  font-family: Noto Sans;
 }
 
 .Mobile_Bar .offcanvas-body .Item .DropDown {
@@ -331,7 +333,6 @@
   color: #ffffff;
   margin: 0;
   padding: 0;
-  font-family: Noto Sans;
 }
 .Mobile_Bar .offcanvas-body .Item .fa-magnifying-glass {
   color: #fff;

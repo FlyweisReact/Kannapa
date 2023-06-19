@@ -10,9 +10,11 @@
     width: 10%;
   }
   .Navbar .Left_Container .Logo_Div img {
-    display: block;
-    margin: auto;
-    padding-left: 20px;
+    /* width: 40px;
+    height: 33px; */
+    display: block
+    ;
+    mar
   }
   .Navbar .Left_Container .Logo_Div p {
     font-size: 20px;
@@ -31,7 +33,7 @@
   .Navbar .Right_Container .Item .fa-magnifying-glass {
     padding-top: 12px;
   }
-  .Navbar .Right_Container .Item img {
+  .Navbar .Right_Container .Item .Toggle {
     margin-top: 13px;
   }
   /* ------------------------------- */
@@ -154,3 +156,5 @@
     width: 30% !important;
   }
 }
+
+

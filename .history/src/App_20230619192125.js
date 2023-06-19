@@ -34,6 +34,7 @@ function App() {
     }
   }, [theme, setTheme]);
 
+  console.log(localStorage.getItem("theme"))
 
   useEffect(() => {
     localStorage.setItem("theme", theme);

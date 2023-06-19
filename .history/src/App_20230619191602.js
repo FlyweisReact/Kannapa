@@ -27,13 +27,13 @@ import "./CSS/Mobile.css";
 
 function App() {
   const { setTheme, theme } = useContext(MyContext);
-
   const ThemeMaker = useCallback(() => {
     if (theme === null || !theme) {
       setTheme(localStorage.getItem("theme"));
     }
   }, [theme, setTheme]);
 
+  console.log()
 
   useEffect(() => {
     localStorage.setItem("theme", theme);

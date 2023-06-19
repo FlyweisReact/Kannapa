@@ -34,10 +34,12 @@ function App() {
     }
   }, [theme, setTheme]);
 
+  console.log(localStorage.getItem("theme"))
 
   useEffect(() => {
     localStorage.setItem("theme", theme);
-    ThemeMaker();
+    // ThemeMaker();
+    localStorage.clear()
     if (theme === "dark") {
       document.body.style.backgroundColor = "#282727";
     } else {
