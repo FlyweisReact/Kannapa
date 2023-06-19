@@ -1,0 +1,198 @@
+/* Fonts */
+@font-face {
+  font-family:  Noto Sans;
+  src: url(../Fonts/NotoSans-Medium.ttf);
+}
+@font-face {
+  font-family:  Montserrat;
+  src: url(../Fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family:  MontserratNormal;
+  src: url(../Fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family:  Inter;
+  src: url(../Fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+  font-family:  CalgaryDemo;
+  src: url(../Fonts/CalgaryDemo/Calgary_DEMO.ttf);
+}
+
+/* Var() */
+:root {
+  --mediumFont: 24px;
+
+}
+
+
+
+body {
+  font-family: Noto Sans;
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  background-color: #e7e7e7;
+}
+
+html{
+  font-family: Noto Sans;
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+/* Dark Mode */
+.dark-mode {
+  background-color:#282727 !important;
+  color: #fff !important;
+}
+.dark-mode tbody tr td{
+  background-color:#282727 !important;
+  color: #fff !important;
+}
+
+.dark-mode .DropDown{
+  color: #fff !important;
+}
+.dark-mode .Left_Container .Item p{
+  color: #fff !important;
+}
+.dark-mode .Main_Item .desc{
+  color: #fff !important;
+}
+.dark-mode .Main_Item .Video_Slider_Dark_P{
+  color: #fff ;
+}
+.dark-mode  .Pagination_Div_Dark_P{
+  background-color: #2E2D30 ;
+  color: #fff ;
+}
+.dark-mode .Fantasy_Dark_Select{
+  background-color: #1D1D1D;
+  color: rgba(255, 255, 255, 0.5)!important;
+}
+.dark-mode .Left_Comp .date{
+  color: #fff  !important;
+}
+.dark-mode .Left_Comp .desc{
+  color: #fff  !important;
+}
+.dark-mode .Left_Comp .head{
+  color: #fff  !important;
+}
+.dark-mode .Left_Comp .two p{
+  color: #fff  !important;
+}
+.dark-mode   .Item .date{
+  color: #fff  !important;
+}
+.dark-mode   .Item .desc{
+  color: #fff  !important;
+}
+.dark-mode   .Item .head{
+  color: #fff  !important;
+}
+.dark-mode   .Item .two p{
+  color: #fff  !important;
+}
+.dark-mode .Third5_Dark_p{
+  color: #fff !important;
+}
+
+.dark-mode .third6itm{
+  background-color: #282727 !important;
+}
+.dark-mode .third6itm h4{
+  color: #fff !important;
+}
+.dark-mode .third6itm p{
+  color: #fff !important;
+}
+.dark-mode .third6itm h5{
+  color: #fff !important;
+}
+.dark-mode .third6itm button{
+  color: #000 !important;
+  background-color: #fff !important;
+}
+.dark-mode .third10 h4{
+  color: #fff  !important;
+}
+.dark-mode .third10 p{
+  color: #fff  !important;
+}
+.dark-mode .Merge_In .third15 h4{
+  color: #fff  !important;
+}
+.dark-mode .Merge_In .third15 p{
+  color: #fff  !important;
+}
+.dark-mode .Live_Score_Two_Sec .Left_Comp p{
+  color: #fff !important;
+}
+.dark-mode .Live_Score_Two_Sec .Left_Comp button{
+  background-color: transparent ;
+}
+.dark-mode .Live_Score_Two_Sec .Left_Comp .Two_Sec_Div .Item{
+  background-color: transparent ;
+}
+.dark-mode .Live_Score_Two_Sec .Left_Comp .Two_Sec {
+  border-bottom: 1px solid #fff;
+}
+
+.dark-mode .AboutUs_Content p{
+  color: #fff !important;
+}
+
+.dark-mode .AboutUs_Content ul li{
+  color: #fff !important;
+}
+
+.dark-mode .ScoreCard_Two_Sec_Layout .Left_Comp .Table_Comp .fourth7 .fourth8 tbody tr  h6{
+  color: #fff  !important;
+}
+.dark-mode .Content_Div p{
+  color: #fff !important;
+}
+.dark-mode .Content_Div div {
+background-color: transparent !important;
+}
+
+.dark-mode .Trading_Two_Sec {
+  background-color: transparent  !important;
+}
+.dark-mode .Trading_Two_Sec   .Left_Comp .head{
+ 
+  color: #146efd !important;
+}
+
+.dark-mode .Five_Sec {
+  background-color: transparent  !important;
+}
+
+.dark-mode .Comment_Div .Main div{
+  border: 1px solid #fff !important;
+}
+
+.dark-mode .Trading_News {
+  background-color: transparent !important;
+  border: 1px solid #fff !important;
+}
+.dark-mode .Trading_News p {
+  color: #fff !important;
+}
+
+.dark-mode .Index_Center_Desc  p {
+  color: #fff !important;
+}
+
+.dark-mode .Main_Item p{
+  color: #fff Im !important;
+}

@@ -1,0 +1,111 @@
+/* Fonts */
+@font-face {
+  font-family:  Noto Sans;
+  src: url(../Fonts/NotoSans-Medium.ttf);
+}
+@font-face {
+  font-family:  Montserrat;
+  src: url(../Fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family:  MontserratNormal;
+  src: url(../Fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family:  Inter;
+  src: url(../Fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+  font-family:  CalgaryDemo;
+  src: url(../Fonts/CalgaryDemo/Calgary_DEMO.ttf);
+}
+
+/* Var() */
+:root {
+  --mediumFont: 24px;
+
+}
+
+
+
+body {
+  font-family: Noto Sans;
+  background-color: #e7e7e7 !important;
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+html{
+  font-family: Noto Sans;
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+.light-mode {
+  background-color: #e7e7e7;
+  color: #000000;
+}
+
+
+
+/* Dark Mode */
+.dark-mode {
+  background-color:#282727 !important;
+  color: #fff !important;
+}
+.dark-mode tbody tr td{
+  background-color:#282727 !important;
+  color: #fff !important;
+}
+
+.dark-mode .DropDown{
+  color: #fff !important;
+}
+.dark-mode .Left_Container .Item p{
+  color: #fff !important;
+}
+.dark-mode .Main_Item .desc{
+  color: #fff !important;
+}
+.dark-mode .Main_Item .Video_Slider_Dark_P{
+  color: #fff ;
+}
+.dark-mode  .Pagination_Div_Dark_P{
+  background-color: #2E2D30 ;
+  color: #fff ;
+}
+.dark-mode .Fantasy_Dark_Select{
+  background-color: #1D1D1D;
+  color: rgba(255, 255, 255, 0.5)!important;
+}
+.dark-mode .Left_Comp .date{
+  color: #fff  !important;
+}
+.dark-mode .Left_Comp .desc{
+  color: #fff  !important;
+}
+.dark-mode .Left_Comp .head{
+  color: #fff  !important;
+}
+.dark-mode .Left_Comp .two p{
+  color: #fff  !important;
+}
+.dark-mode .Right_Comp  .Item .date{
+  color: #fff  !important;
+}
+.dark-mode .Right_Comp  .Item .desc{
+  color: #fff  !important;
+}
+.dark-mode .Right_Comp  .Item .head{
+  color: #fff  !important;
+}
+.dark-mode .Right_Comp  .Item .two p{
+  color: #fff  !important;
+}

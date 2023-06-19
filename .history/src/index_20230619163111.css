@@ -1,0 +1,76 @@
+/* Fonts */
+@font-face {
+  font-family:  Noto Sans;
+  src: url(../Fonts/NotoSans-Medium.ttf);
+}
+@font-face {
+  font-family:  Montserrat;
+  src: url(../Fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family:  MontserratNormal;
+  src: url(../Fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family:  Inter;
+  src: url(../Fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+  font-family:  CalgaryDemo;
+  src: url(../Fonts/CalgaryDemo/Calgary_DEMO.ttf);
+}
+
+/* Var() */
+:root {
+  --mediumFont: 24px;
+
+}
+
+
+
+body {
+  font-family: Noto Sans;
+  background-color: #e7e7e7 !important;
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+html{
+  font-family: Noto Sans;
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+.light-mode {
+  background-color: #e7e7e7;
+  color: #000000;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color:#282727 !important;
+  color: #fff !important;
+}
+.dark-mode tbody tr td{
+  background-color:#282727 !important;
+  color: #fff !important;
+}
+
+.dark-mode .DropDown{
+  color: #fff !important;
+}
+.dark-mode .Left_Container .Item p{
+  color: #fff !important;
+}
+.dark-mode .Main_Item .desc{
+  color: #fff !important;
+}
+.dark-mode 
