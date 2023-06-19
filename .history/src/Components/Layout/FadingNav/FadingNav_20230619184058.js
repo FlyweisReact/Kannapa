@@ -2,6 +2,7 @@
 
 import React, { useState, useContext } from "react";
 import { LoginModal } from "../../Modal/LoginModal";
+import { SignupModal } from "../../Modal/SignupModal";
 import { Dropdown, Offcanvas } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import { MyContext } from "../../MyContext";
@@ -9,6 +10,7 @@ import { MyContext } from "../../MyContext";
 const FadingNav = () => {
   const navigate = useNavigate();
   const [modalShow, setModalShow] = useState(false);
+  const [openModal, setOpenModal] = useState(false);
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -32,6 +34,7 @@ const FadingNav = () => {
         onHide={() => setModalShow(false)}
         loginopen={modalState}
       />
+      <SignupModal show={openModal} onHide={() => setOpenModal(false)} />
 
       <div className="Fading_Nav">
         <div className="Left_Container">
@@ -44,7 +47,7 @@ const FadingNav = () => {
           <i className="fa-solid fa-bars" onClick={handleShow}></i>
           <button
             onClick={() => {
-              setModalState("Login");
+              setModalState("");
               setModalShow(true);
             }}
           >
@@ -52,7 +55,7 @@ const FadingNav = () => {
           </button>
           <button 
           onClick={() => {
-              setModalState("Signup");
+              setModalState("");
               setModalShow(true);
             }}
           >Sign Up</button>
@@ -152,21 +155,11 @@ const FadingNav = () => {
               <img src="./Images/24.png" alt="" />
             </button>
           </div>
-          <button 
-          onClick={() => {
-              setModalState("Login");
-              setModalShow(true);
-            }}
-           className="LoginBtn">
+          <button onClick={() => setModalShow(true)} className="LoginBtn">
             Login
           </button>
 
-          <button 
-             onClick={() => {
-              setModalState("Signup");
-              setModalShow(true);
-            }}
-          className="LoginBtn">
+          <button onClick={() => setOpenModal(true)} className="LoginBtn">
             Sign Up
           </button>
         </Offcanvas.Body>

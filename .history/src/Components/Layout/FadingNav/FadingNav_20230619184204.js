@@ -163,7 +163,7 @@ const FadingNav = () => {
 
           <button 
              onClick={() => {
-              setModalState("Signup");
+              setModalState("Login");
               setModalShow(true);
             }}
           className="LoginBtn">

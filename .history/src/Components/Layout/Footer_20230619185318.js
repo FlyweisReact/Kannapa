@@ -38,11 +38,9 @@ const Footer = () => {
                   <li>Predict & Win</li>
                 </Link>
                 <Link to="/FantasyPreview">
-                <li>Fantasy Previews</li>
+
                 </Link>
-                <Link to="/VideoScreen">
                 <li>Fantasy Videos</li>
-                </Link>
               </ul>
             </div>
             <div className="Right_Comp">
@@ -57,15 +55,11 @@ const Footer = () => {
                     <img src="./Images/17.png" alt="" />
                     Contact Us
                   </li>
-                  
-            <Link to="/AboutUs">
-            <li>
+                  <li>
                     {" "}
                     <img src="./Images/18.png" alt="" />
                     About Us
                   </li>
-            </Link>
-                
                   <li>
                     {" "}
                     <img src="./Images/19.png" alt="" />

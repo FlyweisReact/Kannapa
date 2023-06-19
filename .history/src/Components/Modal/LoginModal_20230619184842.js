@@ -8,7 +8,9 @@ export function LoginModal(props) {
     if(props.show){
       setState(props.loginopen)
     }
-  },[props ])
+  },[props])
+  console.log(props.loginopen)
+
 
   return (
     <>

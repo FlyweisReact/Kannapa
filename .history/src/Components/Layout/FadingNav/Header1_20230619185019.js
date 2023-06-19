@@ -8,9 +8,7 @@ const Header1 = () => {
     <>
       <div className="Header1">
         <div className="Main">
-        <Link to='/'>
-        <img src="./Images/23.png" alt="" className="logo" />
-        </Link>
+          <img src="./Images/23.png" alt="" className="logo" />
           <div>
           <p className="Head">For faster Scores, News & Live Shows</p>
 

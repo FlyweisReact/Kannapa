@@ -154,19 +154,14 @@ const FadingNav = () => {
           </div>
           <button 
           onClick={() => {
-              setModalState("Login");
+              setModalState("");
               setModalShow(true);
             }}
            className="LoginBtn">
             Login
           </button>
 
-          <button 
-             onClick={() => {
-              setModalState("Signup");
-              setModalShow(true);
-            }}
-          className="LoginBtn">
+          <button onClick={() => setOpenModal(true)} className="LoginBtn">
             Sign Up
           </button>
         </Offcanvas.Body>

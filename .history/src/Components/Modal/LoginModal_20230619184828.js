@@ -6,9 +6,11 @@ export function LoginModal(props) {
   const [state, setState] = useState("");
   useEffect(() => {
     if(props.show){
-      setState(props.loginopen)
+      setState()
     }
-  },[props ])
+  },[])
+  console.log(props.loginopen)
+
 
   return (
     <>

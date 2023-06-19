@@ -59,13 +59,13 @@ const Footer = () => {
                   </li>
                   
             <Link to="/AboutUs">
-            <li>
+              
+            </Link>
+                  <li>
                     {" "}
                     <img src="./Images/18.png" alt="" />
                     About Us
                   </li>
-            </Link>
-                
                   <li>
                     {" "}
                     <img src="./Images/19.png" alt="" />

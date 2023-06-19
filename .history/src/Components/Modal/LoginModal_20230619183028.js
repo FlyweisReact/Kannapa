@@ -1,10 +1,14 @@
 /** @format */
-
+import { useState } from 'react'
 import { Modal } from "react-bootstrap";
+import {SignupModal} from './SignupModal'
 
-export function SignupModal(props) {
+export function LoginModal(props) {
+    const [ openModal , setOpenModal ] = useState(false)
   return (
-    <Modal {...props} aria-labelledby="contained-modal-title-vcenter" centered>
+   <>
+   <SignupModal show={openModal} onHide={() => setOpenModal(false)} />
+     <Modal {...props} aria-labelledby="contained-modal-title-vcenter" centered>
       <Modal.Body className="LoginModal">
         <img
           src="./Images/125.png"
@@ -14,8 +18,8 @@ export function SignupModal(props) {
         />
         <div className="LoginModal">
           <div className="Two_Buttons">
-            <button className="second">Log In</button>
-            <button className="first">Sign Up</button>
+            <button className="first">Log In</button>
+            <button className="second" onClick={() =>}>Sign Up</button>
           </div>
 
           <form>
@@ -44,11 +48,12 @@ export function SignupModal(props) {
             <p>Continue with Apple</p>
           </div>
 
-          <button className="Last_Button">Sign Up</button>
+          <button className="Last_Button">LOG IN</button>
 
           <img src="./Images/129.png" alt="" className="Logo" />
         </div>
       </Modal.Body>
     </Modal>
+   </>
   );
 }

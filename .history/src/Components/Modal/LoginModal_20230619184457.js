@@ -1,14 +1,9 @@
 /** @format */
-import { useState , useEffect } from "react";
+import { useState } from "react";
 import { Modal } from "react-bootstrap";
 
 export function LoginModal(props) {
-  const [state, setState] = useState("");
-  useEffect(() => {
-    if(props.show){
-      setState(props.loginopen)
-    }
-  },[props ])
+  const [state, setState] = useState(props.loginopen);
 
   return (
     <>

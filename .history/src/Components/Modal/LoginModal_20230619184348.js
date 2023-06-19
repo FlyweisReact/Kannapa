@@ -1,14 +1,10 @@
 /** @format */
-import { useState , useEffect } from "react";
+import { useState } from "react";
 import { Modal } from "react-bootstrap";
+import { SignupModal } from "./SignupModal";
 
 export function LoginModal(props) {
-  const [state, setState] = useState("");
-  useEffect(() => {
-    if(props.show){
-      setState(props.loginopen)
-    }
-  },[props ])
+  const [state , setState ] = useState(props.loginopen);
 
   return (
     <>
@@ -27,11 +23,12 @@ export function LoginModal(props) {
           {state === "Login" ? (
             <div className="LoginModal">
               <div className="Two_Buttons">
-                <button className="second">Log In</button>
+                <button className="first">Log In</button>
                 <button
-                  className="first"
+                  className="second"
                   onClick={() => {
-                    setState("Signup");
+                    props.onHide();
+                    setOpenModal(true);
                   }}
                 >
                   Sign Up
@@ -74,10 +71,8 @@ export function LoginModal(props) {
           {state === "Signup" ? (
             <div className="LoginModal">
               <div className="Two_Buttons">
-                <button className="first" onClick={() => setState("Login")}>
-                  Log In
-                </button>
-                <button className="second">Sign Up</button>
+                <button className="second">Log In</button>
+                <button className="first">Sign Up</button>
               </div>
 
               <form>

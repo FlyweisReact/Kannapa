@@ -2,6 +2,7 @@
 
 import React, { useState, useContext } from "react";
 import { LoginModal } from "../../Modal/LoginModal";
+import { SignupModal } from "../../Modal/SignupModal";
 import { Dropdown, Offcanvas } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import { MyContext } from "../../MyContext";
@@ -9,11 +10,13 @@ import { MyContext } from "../../MyContext";
 const FadingNav = () => {
   const navigate = useNavigate();
   const [modalShow, setModalShow] = useState(false);
+  const [openModal, setOpenModal] = useState(false);
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const { setTheme, theme } = useContext(MyContext);
-  const [modalState, setModalState] = useState("");
+  const [ modalState , setModalState ] = useState("")
+
 
   function ThemeSetter() {
     if (theme === "light") {
@@ -27,11 +30,8 @@ const FadingNav = () => {
 
   return (
     <>
-      <LoginModal
-        show={modalShow}
-        onHide={() => setModalShow(false)}
-        loginopen={modalState}
-      />
+      <LoginModal show={modalShow} onHide={() => setModalShow(false)} loginopen={mo} />
+      <SignupModal show={openModal} onHide={() => setOpenModal(false)} />
 
       <div className="Fading_Nav">
         <div className="Left_Container">
@@ -42,20 +42,8 @@ const FadingNav = () => {
 
         <div className="Right_Container">
           <i className="fa-solid fa-bars" onClick={handleShow}></i>
-          <button
-            onClick={() => {
-              setModalState("Login");
-              setModalShow(true);
-            }}
-          >
-            Login
-          </button>
-          <button 
-          onClick={() => {
-              setModalState("Signup");
-              setModalShow(true);
-            }}
-          >Sign Up</button>
+          <button onClick={() => setModalShow(true)}>Login</button>
+          <button onClick={() => setOpenModal(true)}>Sign Up</button>
 
           {theme === "light" ? (
             <img
@@ -152,21 +140,11 @@ const FadingNav = () => {
               <img src="./Images/24.png" alt="" />
             </button>
           </div>
-          <button 
-          onClick={() => {
-              setModalState("Login");
-              setModalShow(true);
-            }}
-           className="LoginBtn">
+          <button onClick={() => setModalShow(true)} className="LoginBtn">
             Login
           </button>
 
-          <button 
-             onClick={() => {
-              setModalState("Signup");
-              setModalShow(true);
-            }}
-          className="LoginBtn">
+          <button onClick={() => setOpenModal(true)} className="LoginBtn">
             Sign Up
           </button>
         </Offcanvas.Body>
